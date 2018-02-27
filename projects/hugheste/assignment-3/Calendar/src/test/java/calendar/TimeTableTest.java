@@ -352,11 +352,18 @@ public class TimeTableTest {
     @Test
     public void test05()  throws Throwable  {
         boolean diagnose = true;
-        Calendar rightnow = Calendar.getInstance();
+//        Calendar rightnow = Calendar.getInstance();
         //current month/year/date is today
-        int thisMonth = rightnow.get(Calendar.MONTH)+1;
-        int thisYear = rightnow.get(Calendar.YEAR);
-        int thisDay = rightnow.get(Calendar.DAY_OF_MONTH);
+
+        int startHour = ValuesGenerator.getRandomIntBetween(random, 6, 11);
+        int startMinute = ValuesGenerator.RandInt(random);
+        int thisDay = ValuesGenerator.RandInt(random);
+
+        int thisMonth = ValuesGenerator.getRandomIntBetween(random, 1, 11);
+        int thisYear = ValuesGenerator.RandInt(random);
+        String title = "Birthday Party";
+        String description = "This is my birthday party.";
+
         LinkedList<Appt> listAppts = new LinkedList<Appt>();
 
         GregorianCalendar today = new GregorianCalendar(thisYear,thisMonth,thisDay);
