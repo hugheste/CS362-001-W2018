@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="calendar.CalDayTest" time="0.045" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="calendar.CalDayTest" time="0.056" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.4+11"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.2\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.2\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk-9.0.4;C:\Users\vanil\AppData\Local\Microsoft\WindowsApps;C:\Users\vanil\AppData\Local\GitHubDesktop\bin;C:\Users\vanil\AppData\Local\atom\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\Program Files\apache-maven-3.5.2\apache-maven-3.5.2\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\PuTTY\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.2\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk-9.0.4;C:\Users\vanil\AppData\Local\Microsoft\WindowsApps;C:\Users\vanil\AppData\Local\GitHubDesktop\bin;C:\Users\vanil\AppData\Local\atom\bin;C:\Program Files\Java\jdk-9.0.4\bin;C:\Program Files\apache-maven-3.5.2\apache-maven-3.5.2\bin;C:\MinGW\bin;;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.2\apache-maven-3.5.2\bin\../conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="53.0"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="calendar.CalDayTest" name="test01" time="0.045">
+  <testcase classname="calendar.CalDayTest" name="test01" time="0.056">
     <failure message="expected:&lt;null&gt; but was:&lt;java.util.LinkedList$ListItr@38ba6ce3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;java.util.LinkedList$ListItr@38ba6ce3&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -103,10 +103,10 @@
 </failure>
     <system-out>Calendar Main: 
 
-	2/12/2018 at 3:30pm ,Birthday Party, This is my birthday party.
+	2/27/2018 at 3:30pm ,Birthday Party, This is my birthday party.
 
-The number of appointments between 2/11/2018 and 2/12/2018
-	 --- 2/11/2018 --- 
+The number of appointments between 2/26/2018 and 2/27/2018
+	 --- 2/26/2018 --- 
  --- -------- Appointments ------------ --- 
 
 
