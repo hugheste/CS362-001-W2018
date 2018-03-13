@@ -3,10 +3,7 @@ package calendar;
  *  This class provides a basic set of test cases for the
  *  TimeTable class.
  */
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 
 import org.junit.Test;
@@ -354,7 +351,9 @@ public class TimeTableTest {
         boolean diagnose = true;
 //        Calendar rightnow = Calendar.getInstance();
         //current month/year/date is today
-
+        long randomseed = System.currentTimeMillis(); //10
+        //			System.out.println(" Seed:"+randomseed );
+        Random random = new Random(randomseed);
         int startHour = ValuesGenerator.getRandomIntBetween(random, 6, 11);
         int startMinute = ValuesGenerator.RandInt(random);
         int thisDay = ValuesGenerator.RandInt(random);
@@ -375,13 +374,13 @@ public class TimeTableTest {
         String tomorrowDate=tomorrow.get(Calendar.MONTH)+ "/"+ tomorrow.get(Calendar.DAY_OF_MONTH)+"/"+tomorrow.get(Calendar.YEAR);
         String nextDate=nextDay.get(Calendar.MONTH)+ "/"+ nextDay.get(Calendar.DAY_OF_MONTH)+"/"+nextDay.get(Calendar.YEAR);
 
-        int startHour=23;
-        int startMinute=30;
+        startHour=23;
+        startMinute=30;
         int startDay=thisDay;
         int startMonth=thisMonth;
         int startYear=thisYear;
-        String title="Birthday Party";
-        String description="This is my birthday party.";
+        title="Birthday Party";
+        description="This is my birthday party.";
         //Construct a new Appointment object with the initial data
         Appt appt1 = new Appt(startHour,
                 startMinute ,

@@ -26,6 +26,9 @@
     <SUITE FILE_PATH="coverage/Calendar$TimeTableTest.coverage" NAME="TimeTableTest Coverage Results" MODIFIED="1519711063921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calendar.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Calendar$CalDayTest_test01.coverage" NAME="CalDayTest.test01 Coverage Results" MODIFIED="1520923895204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>calendar.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Calendar$ApptRandomTest_radnomtest3.coverage" NAME="ApptRandomTest.radnomtest3 Coverage Results" MODIFIED="1519703010200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calendar.*</FILTER>
     </SUITE>
@@ -33,6 +36,9 @@
       <FILTER>calendar.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Calendar$CalDayRandomTest_radnomtest1.coverage" NAME="CalDayRandomTest.radnomtest1 Coverage Results" MODIFIED="1519710187223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>calendar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Calendar$calendar_in_Calendar.coverage" NAME="calendar in Calendar Coverage Results" MODIFIED="1520923902689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>calendar.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Calendar$TimeTableRandomTest_randTest.coverage" NAME="TimeTableRandomTest.randTest Coverage Results" MODIFIED="1519713972065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -50,7 +56,7 @@
       <file leaf-file-name="ValuesGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ValuesGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
+            <state relative-caret-position="1600">
               <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
@@ -60,7 +66,7 @@
       <file leaf-file-name="Appt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="1825">
               <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
               <folding />
             </state>
@@ -70,7 +76,7 @@
       <file leaf-file-name="ApptRandomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptRandomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="300">
               <caret line="19" column="43" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,21 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApptTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/ApptTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CalDayRandomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+            <state relative-caret-position="263">
+              <caret line="42" column="60" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="42" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,18 +110,18 @@
       <file leaf-file-name="CalDayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/CalDayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="400">
               <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeTableRandomTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimeTableRandomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="176" column="50" lean-forward="true" selection-start-line="176" selection-start-column="50" selection-end-line="176" selection-end-column="50" />
+              <caret line="176" column="50" lean-forward="false" selection-start-line="176" selection-start-column="50" selection-end-line="176" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -134,8 +130,28 @@
       <file leaf-file-name="TimeTableTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/TimeTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="12375">
               <caret line="503" column="62" lean-forward="false" selection-start-line="503" selection-start-column="62" selection-end-line="503" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeTableTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="382" column="8" lean-forward="false" selection-start-line="382" selection-start-column="8" selection-end-line="382" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalDayTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -160,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java" />
         <option value="$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/TimeTableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java" />
       </list>
     </option>
   </component>
@@ -183,9 +201,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,11 +262,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/TimeTableTest.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -263,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeTableRandomTest">
+  <component name="RunManager" selected="JUnit.calendar in Calendar">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -285,7 +303,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CalDayRandomTest.radnomtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalDayTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="calendar.*" />
@@ -296,8 +314,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="calendar" />
-      <option name="MAIN_CLASS_NAME" value="calendar.CalDayRandomTest" />
-      <option name="METHOD_NAME" value="radnomtest1" />
+      <option name="MAIN_CLASS_NAME" value="calendar.CalDayTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -385,18 +403,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TimeTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="calendar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="calendar.TimeTableTest" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -410,15 +423,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+    <configuration name="calendar in Calendar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="calendar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Calendar" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
+      <option name="PACKAGE_NAME" value="calendar" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -500,19 +518,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.Execute" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalDayRandomTest.radnomtest1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TimeTableTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.test05" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.randTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.test05" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.randTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.calendar in Calendar" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CalDayTest.test01" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.randTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.test05" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TimeTableTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CalDayRandomTest.radnomtest1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.calendar in Calendar" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalDayTest.test01" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.randTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TimeTableRandomTest.test05" />
       </list>
     </recent_temporary>
   </component>
@@ -533,20 +551,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TimeTableRandomTest - 2018.02.26 at 21h 58m 22s.xml">
-      <configuration name="TimeTableRandomTest" configurationId="JUnit" />
+    <history-entry file="CalDayTest_test01 - 2018.03.12 at 23h 51m 16s.xml">
+      <configuration name="CalDayTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTableRandomTest - 2018.02.26 at 21h 59m 13s.xml">
-      <configuration name="TimeTableRandomTest" configurationId="JUnit" />
+    <history-entry file="CalDayTest_test01 - 2018.03.12 at 23h 51m 27s.xml">
+      <configuration name="CalDayTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TimeTableRandomTest - 2018.02.26 at 22h 12m 08s.xml">
-      <configuration name="TimeTableRandomTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimeTableRandomTest - 2018.02.26 at 22h 35m 52s.xml">
-      <configuration name="TimeTableRandomTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimeTableRandomTest - 2018.02.26 at 22h 55m 35s.xml">
-      <configuration name="TimeTableRandomTest" configurationId="JUnit" />
+    <history-entry file="CalDayTest_test01 - 2018.03.12 at 23h 51m 36s.xml">
+      <configuration name="CalDayTest.test01" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TimeTableRandomTest_randTest - 2018.02.26 at 22h 46m 44s.xml">
       <configuration name="TimeTableRandomTest.randTest" configurationId="JUnit" />
@@ -563,9 +575,16 @@
     <history-entry file="TimeTableRandomTest_test05 - 2018.02.26 at 21h 59m 54s.xml">
       <configuration name="TimeTableRandomTest.test05" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="calendar_in_Calendar - 2018.03.12 at 23h 51m 04s.xml">
+      <configuration name="calendar in Calendar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="calendar_in_Calendar - 2018.03.12 at 23h 52m 02s.xml">
+      <configuration name="calendar in Calendar" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -577,11 +596,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -616,6 +635,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptRandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/ApptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/CalDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/CalDayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/TimeTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12375">
+          <caret line="503" column="62" lean-forward="false" selection-start-line="503" selection-start-column="62" selection-end-line="503" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="176" column="50" lean-forward="true" selection-start-line="176" selection-start-column="50" selection-end-line="176" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ValuesGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2750">
           <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
@@ -634,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +912,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ValuesGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="1600">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
@@ -828,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/CalDayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="400">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
@@ -836,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/ApptRandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state relative-caret-position="300">
           <caret line="19" column="43" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -846,25 +938,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/calendar/Appt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="1825">
           <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="46" column="68" lean-forward="false" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../assignment-3/Calendar/src/test/java/calendar/TimeTableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="12375">
           <caret line="503" column="62" lean-forward="false" selection-start-line="503" selection-start-column="62" selection-end-line="503" selection-end-column="62" />
           <folding />
         </state>
@@ -873,7 +955,33 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableRandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="176" column="50" lean-forward="true" selection-start-line="176" selection-start-column="50" selection-end-line="176" selection-end-column="50" />
+          <caret line="176" column="50" lean-forward="false" selection-start-line="176" selection-start-column="50" selection-end-line="176" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayRandomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="42" column="60" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="42" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/TimeTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="382" column="8" lean-forward="false" selection-start-line="382" selection-start-column="8" selection-end-line="382" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/calendar/CalDayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
           <folding />
         </state>
       </provider>

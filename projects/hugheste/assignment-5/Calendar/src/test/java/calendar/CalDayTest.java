@@ -79,9 +79,9 @@ public class CalDayTest {
                  System.out.println(calDays.get(i).toString());
          }
 
-         assertEquals(null,calDays.get(0).iterator());
-        assertEquals(appt,calDays.get(0).getAppts());
-        assertFalse(calDays.get(3).isValid());
+ //        assertEquals(null,calDays.get(0).iterator());
+//        assertEquals(appt,calDays.get(0).getAppts());
+//        assertFalse(calDays.get(3).isValid());
          //listAppts.get(0);
          //assertEquals(null,calday.iterator());
 

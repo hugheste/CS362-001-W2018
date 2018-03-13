@@ -24,6 +24,11 @@ public void setStartHour(int startHour) {
 }
 //End code snippet
 
+This setting of the hour value is a bug as it does not correctly set the value input by the user
+or the test cases, giving you the wrong time of the appointment. By setting the hour value to the
+month, you restrict the range in which the hour can be set to be and mess up the validity of the
+scheduler.
+
 Bug 3)  in addAppt - getValid() check is removed, allowing for invalid appointments to be added
 Line: 74 in CalDay.java
 Code:
@@ -43,3 +48,10 @@ Code:
 	//	}
 	}
 	
+By not checking to see if an appointment is valid before it’s added to the list of
+appointments for the date, potentially invalid data could cause the program to fail,
+which makes this a bug. It is important to check to see if the data is valid, as a
+bad appointment could have detrimental effects on other methods. It could potentially
+cause the program to attempt to set the calendar in incorrect or improbable ways that
+could cause greater invalidity of the calendar.
+
