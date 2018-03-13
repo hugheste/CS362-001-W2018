@@ -41,8 +41,8 @@ public class CalDayTest {
 
          int startHour=15;
          int startMinute=30;
-         int startDay=thisDay+1;
-         int startMonth=thisMonth;
+         int startDay=31;
+         int startMonth=2;
          int startYear=thisYear;
          String title="Birthday Party";
          String description="This is my birthday party.";
@@ -79,9 +79,13 @@ public class CalDayTest {
                  System.out.println(calDays.get(i).toString());
          }
 
-//         assertEquals(null,calDays.get(0).iterator());
-        assertEquals(appt,calDays.get(0).getAppts());
-        assertFalse(calDays.get(3).isValid());
+//        assertEquals(null,calDays.get(0).iterator());
+//        assertEquals(appt,calDays.get(0).getAppts());
+//        assertEquals(startMonth,calDays.get(0).getMonth());
+        assertEquals(startYear,calDays.get(0).getYear());
+        assertTrue(calDays.get(0).isValid());
+        assertNotEquals(startDay,calDays.get(0).getDay());
+//        assertFalse(calDays.get(3).isValid());
          //listAppts.get(0);
          //assertEquals(null,calday.iterator());
 

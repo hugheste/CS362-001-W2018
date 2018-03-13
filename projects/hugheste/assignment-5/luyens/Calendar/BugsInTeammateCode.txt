@@ -1,0 +1,45 @@
+Bugs In Teammate Code
+By Stephanie Hughes
+
+
+Bug 1) in getApptRange() - invalid starting index within loop to get appointment range
+Line: 53 in TimeTable.java
+Code: 
+ for (int i = 2; i < appts.size(); i++) { //**Bug here - invalid starting index
+	Appt appt=appts.get(i);
+	if(!appt.getValid()) continue;
+//End code snippet
+
+Having getApptRange() start at 2 instead of 0 can cause indexing errors, making 
+it a bug in the code. By not starting at 0 you can miss the appointments that 
+would be in index 0 or 1, and if 2 is greater than the amount of appointments, 
+this could cause the program to go out of bounds. 
+
+Bug 2) in setStartHour() - the hour variable is being set to the value of the appointment month
+Line: 134 in Appt.java
+Code: 
+public void setStartHour(int startHour) {
+   	this.startHour = startMonth;	//**Bug here - invalid setting of hour value
+   	 isValid();
+}
+//End code snippet
+
+Bug 3)  in addAppt - getValid() check is removed, allowing for invalid appointments to be added
+Line: 74 in CalDay.java
+Code:
+	public void addAppt(Appt appt) {
+		//if (appt.getValid()) {	//**Bug is here - removed validity check
+			for (int i = 0; i < getAppts().size(); i++) {
+				//Put the appointment in the correct order - finish this
+				if (((Appt)getAppts().get(i)).getStartHour() >
+										appt.getStartHour()) {
+					
+					getAppts().add(i, appt);
+					return;
+				}
+			}
+		    //The appointment hasn't been added yet, so add it
+		    getAppts().add(appt);
+	//	}
+	}
+	
