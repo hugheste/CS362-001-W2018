@@ -31,7 +31,7 @@ public class UrlValidatorTest extends TestCase {
       super(testName);
    }
 
-   @Override
+
 protected void setUp() {
       for (int index = 0; index < testPartsIndex.length - 1; index++) {
          testPartsIndex[index] = 0;
